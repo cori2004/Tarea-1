@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+  background-color: #00ffff; /* Fondo cian */
+  font-family: serif;
+  margin: 10px;
+  color: #000000;
+}
+
+/* Encabezados */
+h1 {
+  color: red;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+h2, h3 {
+  margin: 5px 0;
+}
+
+/* Párrafos con color de fondo */
+.p-rojo {
+  background-color: red;
+  color: black;
+  padding: 5px;
+}
+
+.p-amarillo {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+}
+
+.p-verde {
+  background-color: #2e8b57;
+  color: black;
+  padding: 5px;
+}
+
+/* Lista destacada */
+ul {
+  padding-left: 20px;
+}
+
+.li-amarillo {
+  background-color: yellow;
+}
+
+.li-rosado {
+  background-color: pink;
+}
+
+/* Galería de imágenes */
+.galeria {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.galeria img {
+  width: 32%;
+  height: auto;
+}
+
+/* Tabla */
+table, th, td {
+  border: 1px solid #00aaaa;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  background-color: transparent;
+}
+
+td {
+  padding: 4px;
+}
